@@ -17,6 +17,6 @@ export default {
 
 header {
   height: 150px;
-  background-color: aqua;
+  background-color: #778899;
 }
 </style>

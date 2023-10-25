@@ -2,12 +2,15 @@
 // import file
 import AppHeader from './components/AppHeader.vue'
 import AppFooter from './components/AppFooter.vue'
+import AppMain from './components/AppMain.vue'
+
 
 // export file
 export default {
   components: {
     AppHeader,
     AppFooter,
+    AppMain
   },
 }
 
@@ -15,7 +18,7 @@ export default {
 
 <template>
   <AppHeader />
-
+  <AppMain />
   <AppFooter />
 </template>
 

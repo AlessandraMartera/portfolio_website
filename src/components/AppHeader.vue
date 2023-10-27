@@ -17,21 +17,21 @@ export default {
     <!-- nav list -->
     <nav>
       <ul>
-        <li><a href="">Home</a></li>
-        <li><a href="">Portfolio</a></li>
-        <li><a href="">About me</a></li>
-        <li><a href="">Pages</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About me</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contacts</a></li>
       </ul>
 
       <!-- contact me -->
       <div>
-        Contact |
         <a href=""><i class="fa-brands fa-linkedin"></i></a>
         <a href=""><i class="fa-brands fa-github"></i></a>
         <a href=""><i class="fa-brands fa-instagram"></i></a>
       </div>
     </nav>
   </header>
+
   <!-- jumbotrone -->
   <div id="hero">
     <div class="center_container">
@@ -66,9 +66,7 @@ export default {
           Necessitatibus, aliquam? Quis obcaecati veniam dolores?
         </p>
 
-        <div>
-          learn more &DownArrow;
-        </div>
+        <a href="#">learn more &DownArrow;</a>
       </section>
     </div>
   </div>
@@ -79,6 +77,11 @@ export default {
 @use "./../styles/partials/variables.scss" as *;
 
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
   font-size: 24px;
   color: $primary;
   background-color: $background_dark;
@@ -100,7 +103,6 @@ header {
   ul {
     padding: 0 40px;
     display: flex;
-    flex-direction: row-reverse;
     justify-content: flex-start;
     gap: 40px;
   }
@@ -108,6 +110,7 @@ header {
 
 // Jumbo
 #hero {
+  margin-top: 100px;
   color: $primary;
   height: 100vh;
   background-color: $background_dark;
@@ -157,6 +160,10 @@ header {
     p {
       margin: 25px 0;
     }
+
+    a {
+      color: $highlighter;
+    }
   }
 }
 
@@ -173,7 +180,7 @@ header {
 // }
 
 // DEBUG 
-section {
-  border: red 1px dotted;
-}
+// section {
+//   border: red 1px dotted;
+// }
 </style>

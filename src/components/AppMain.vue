@@ -1,14 +1,17 @@
 <script>
+import AboutSection from './AboutSection.vue';
 export default {
     name: 'AppMain',
-
+    components: {
+        AboutSection
+    }
 }
 
 </script>
 
 <template>
     <main>
-
+        <AboutSection />
     </main>
 </template>
 
@@ -17,28 +20,6 @@ export default {
 @use "./../styles/partials/variables.scss" as *;
 
 main {
-
-
-    // .name {
-    //     display: flex;
-    //     flex-direction: column;
-    //     justify-content: center;
-    //     align-items: center;
-    //     gap: 30px;
-    //     width: 40%;
-    //     text-align: center;
-
-    //     img {
-    //         width: 40px;
-    //     }
-
-    //     h1 {
-    //         font-size: 50px;
-    //     }
-    // }
-
-    // .text {}
-
-
+    background-color: #34353a;
 }
 </style>

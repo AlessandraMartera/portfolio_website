@@ -35,29 +35,40 @@ export default {
   <!-- jumbotrone -->
   <div id="hero">
     <div class="center_container">
-      <section>
-        <div id="name">
+
+      <!-- section name -->
+      <section id="name">
+        <h1>
           Alessandra <br>
-          Martera
-        </div>
+          Martera <br>
+        </h1>
+        <button>
+          Contact me
+        </button>
       </section>
 
       <!-- img -->
-      <section>
+      <section id="image">
         <img src="foto.jpeg" alt="">
       </section>
 
       <!-- info about me -->
-      <section>
+      <section id="info">
         <h1>
           Junior <br>
-          Full-Stack Web Developer
+          Full-Stack <br>
+          Web Developer
         </h1>
+
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt eaque magni dignissimos vero, ex
           dicta necessitatibus atque voluptatibus aliquam provident natus, ipsum, doloremque porro!
           Necessitatibus, aliquam? Quis obcaecati veniam dolores?
         </p>
+
+        <div>
+          learn more &DownArrow;
+        </div>
       </section>
     </div>
   </div>
@@ -69,7 +80,7 @@ export default {
 
 header {
   font-size: 24px;
-  color: #fff;
+  color: $primary;
   background-color: $background_dark;
   padding: 50px 150px;
   display: flex;
@@ -97,7 +108,7 @@ header {
 
 // Jumbo
 #hero {
-  color: #778899;
+  color: $primary;
   height: 100vh;
   background-color: $background_dark;
   padding: 60px 0;
@@ -109,6 +120,7 @@ header {
 
     section {
       min-width: calc(100%/3);
+      padding: 30px;
 
       img {
         width: 90%;
@@ -117,8 +129,34 @@ header {
     }
   }
 
+  #image {
+    text-align: center;
+  }
+
   #name {
-    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    h1 {
+      font-size: 60px;
+    }
+
+    button {
+      width: 200px;
+    }
+  }
+
+  #info {
+    font-size: 20px;
+
+    h1 {
+      font-size: 40px;
+    }
+
+    p {
+      margin: 25px 0;
+    }
   }
 }
 

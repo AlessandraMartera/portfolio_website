@@ -18,3 +18,11 @@ a:visited{
 a:hover{
     color: $highlighter;
 }
+
+button{
+    cursor:not-allowed;
+    padding: 6px;
+    border:  2px solid $highlighter;
+    color: $highlighter;
+    background:none;
+}

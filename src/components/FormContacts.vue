@@ -6,7 +6,7 @@ export default {
 </script>
 
 <template>
-    <section>
+    <section id="Contacts">
         <div>
             <h3 class="highlighter">
                 Contact me

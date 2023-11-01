@@ -39,7 +39,7 @@ export default {
 
 footer {
     padding: 20px;
-    height: 100px;
+    height: 150px;
     background-color: $background_dark;
 
     ul {

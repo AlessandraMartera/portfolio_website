@@ -34,40 +34,37 @@ export default {
 
   <!-- jumbotrone -->
   <div id="hero">
-    <div class="center_container">
+    <!-- section name -->
+    <section id="name">
+      <h1>
+        Alessandra <br>
+        Martera <br>
+      </h1>
+      <button>
+        Contact me
+      </button>
+    </section>
 
-      <!-- section name -->
-      <section id="name">
-        <h1>
-          Alessandra <br>
-          Martera <br>
-        </h1>
-        <button>
-          Contact me
-        </button>
-      </section>
+    <!-- img -->
+    <section id="image">
+      <img src="foto.jpeg" alt="">
+    </section>
 
-      <!-- img -->
-      <section id="image">
-        <img src="foto.jpeg" alt="">
-      </section>
+    <!-- info about me -->
+    <section id="info">
+      <h1>
+        Junior <br>
+        Full-Stack <br>
+        Web Developer
+      </h1>
 
-      <!-- info about me -->
-      <section id="info">
-        <h1>
-          Junior <br>
-          Full-Stack <br>
-          Web Developer
-        </h1>
+      <p>
+        Mi piace realizzare siti web, imparare cose nuove e i giochini di logica <i
+          class="fa-regular fa-face-grin-wide"></i>
+      </p>
 
-        <p>
-          Mi piace realizzare siti web, imparare cose nuove e i giochini di logica <i
-            class="fa-regular fa-face-grin-wide"></i>
-        </p>
-
-        <a href="#">learn more &DownArrow;</a>
-      </section>
-    </div>
+      <a href="#">learn more &DownArrow;</a>
+    </section>
   </div>
 </template>
 
@@ -84,7 +81,7 @@ header {
   font-size: 24px;
   color: $primary;
   background-color: $background_dark;
-  padding: 50px 150px;
+  padding: 40px 150px;
   display: flex;
   justify-content: space-between;
 
@@ -109,24 +106,22 @@ header {
 
 // Jumbo
 #hero {
-  margin-top: 100px;
+  // padding-top: 100px;
   height: 100vh;
   background-color: $background_dark;
-  padding: 60px 0;
+  padding: 200px 100px;
 
-  .center_container {
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    section {
-      min-width: calc(100%/3);
-      padding: 30px;
+  section {
+    min-width: calc(100%/3);
+    padding: 30px;
 
-      img {
-        width: 90%;
-        margin: 0 auto;
-      }
+    img {
+      width: 90%;
+      margin: 0 auto;
     }
   }
 

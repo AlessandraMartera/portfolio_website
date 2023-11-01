@@ -8,10 +8,11 @@ export default {
 <template>
     <section>
         <div>
-            <h5 class="highlighter">
+            <h3 class="highlighter">
                 My projects
-            </h5>
+            </h3>
 
+            <!-- qui porbabilmente andrà un carosello -->
             <div id="projects">
 
                 <div class="square">ciao</div>
@@ -37,6 +38,7 @@ export default {
 
 section {
     text-align: center;
+    background-color: $background_dark;
 
     #projects {
         display: flex;

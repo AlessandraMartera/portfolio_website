@@ -38,7 +38,13 @@ export default {
 @use "./../styles/partials/variables.scss" as *;
 
 footer {
+    padding: 20px;
     height: 100px;
     background-color: $background_dark;
+
+    ul {
+        display: flex;
+        gap: 10px;
+    }
 }
 </style>

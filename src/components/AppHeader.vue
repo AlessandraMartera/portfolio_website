@@ -25,9 +25,15 @@ export default {
 
       <!-- contact me -->
       <div>
-        <a href=""><i class="fa-brands fa-linkedin"></i></a>
-        <a href=""><i class="fa-brands fa-github"></i></a>
-        <a href=""><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/alessandra-martera-3330b6162/" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/AlessandraMartera" target="_blank">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.instagram.com/alee_mrt/" target="_blank">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
       </div>
     </nav>
   </header>

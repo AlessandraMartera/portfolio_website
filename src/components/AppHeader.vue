@@ -11,7 +11,7 @@ export default {
 
     <!-- logo -->
     <div>
-      Alessandra
+      Alessandra <span class="highlighter"> Martera </span>
     </div>
 
     <!-- nav list -->
@@ -61,9 +61,8 @@ export default {
         </h1>
 
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt eaque magni dignissimos vero, ex
-          dicta necessitatibus atque voluptatibus aliquam provident natus, ipsum, doloremque porro!
-          Necessitatibus, aliquam? Quis obcaecati veniam dolores?
+          Mi piace realizzare siti web, imparare cose nuove e i giochini di logica <i
+            class="fa-regular fa-face-grin-wide"></i>
         </p>
 
         <a href="#">learn more &DownArrow;</a>
@@ -111,7 +110,6 @@ header {
 // Jumbo
 #hero {
   margin-top: 100px;
-  color: $primary;
   height: 100vh;
   background-color: $background_dark;
   padding: 60px 0;

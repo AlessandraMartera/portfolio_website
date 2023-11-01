@@ -5,6 +5,9 @@
     box-sizing: border-box;
 }
 
+body{
+    color: $primary;
+}
 ul{
     list-style: none;
 }
@@ -25,4 +28,12 @@ button{
     border:  2px solid $highlighter;
     color: $highlighter;
     background:none;
+}
+
+.highlighter{
+    color: $highlighter;
+}
+
+section{
+    padding: 100px;
 }

@@ -28,16 +28,17 @@ export default {
             </ul>
         </div>
 
+        <small>© Alessandra Martera. Tutti i diritti riservati.</small>
     </footer>
 </template>
 
 
 <style lang="scss" scoped>
 @use "./../styles/general.scss" as *;
+@use "./../styles/partials/variables.scss" as *;
 
 footer {
     height: 100px;
-    background-color: #000;
-    color: #fff;
+    background-color: $background_dark;
 }
 </style>

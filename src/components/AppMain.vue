@@ -1,9 +1,12 @@
 <script>
 import AboutSection from './AboutSection.vue';
+import ProjectsSection from './ProjectsSection.vue';
+
 export default {
     name: 'AppMain',
     components: {
-        AboutSection
+        AboutSection,
+        ProjectsSection
     }
 }
 
@@ -12,6 +15,7 @@ export default {
 <template>
     <main>
         <AboutSection />
+        <ProjectsSection />
     </main>
 </template>
 
